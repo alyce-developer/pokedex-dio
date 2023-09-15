@@ -10,8 +10,8 @@ body {
 }
 
 .content {
-    /* width: 100vw;
-    height: 100vh; */
+    width: 100vw;
+    height: 100vh;
     padding: 1rem;
     background-color: #fff;
 }
@@ -37,13 +37,18 @@ body {
     .content {
         grid-template-columns: 1fr 1fr;
         height: auto;
-        /* margin: 1.5rem; */
+    }
+    .poke-div {
+        margin-right: 1.5rem;
     }
 }
 
 @media screen and (min-width: 576px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
+    }
+    .poke-div {
+        margin-right: 2.5rem;
     }
 }
 
