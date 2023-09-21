@@ -10,35 +10,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/pokedex.css">
+    <link rel="stylesheet" href="/assets/css/pokecolors.css">
 </head>
 <body>
 
     <section class="content">
         <h1>Pokédex</h1>
         <div class="poke-div">
-            <ol id="pokemonList" class="pokemons">
-            <li class="pokemon">
-
-                <span class="number">#001</span>
-                <span class="name">Bulbasaur</span>
-
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">grass</li>
-                        <li class="type">poison</li>
-                    </ol>
-
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Bulbasaur">
-                </div>
-            </li>
-        </ol>
+            <ol id="pokemonList" class="pokemons"></ol>
         </div>
 
         <div class="pagination">
-                        <button id="LoadMoreButton" type="button">
-                        Load more
-                        </button>
-                    </div>
+            <button id="LoadMoreButton" type="button">
+                Carregar mais
+            </button>
+        </div>
+
+        <footer>
+            <div class="footer">
+                <a href="https://github.com/alyce-developer/"> Desenvolvido por Alyce Monteiro</a>
+                <a href="https://www.linkedin.com/in/alyce-monteiro/">Entre em contato</a>
+            </div>
+        </footer>
     </section>
 
     <script src="/assets/js/pokemon-model.js"></script>
